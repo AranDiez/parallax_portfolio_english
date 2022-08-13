@@ -1,0 +1,11 @@
+@import '../core/variables';
+
+.experience,
+.education {
+  font-family: 'Antic';
+  font-size: 50px;
+  color: $layer6;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}

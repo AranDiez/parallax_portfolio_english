@@ -1,8 +1,54 @@
 @import '../core/variables';
+// ------------ title ---------------
+
+.main__section1__nametitle {
+  font-family: 'Antic';
+  margin-top: 50px;
+}
+
+.main__section1__title,
+.main__section1__subtitle {
+  color: $layer6;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+.main__section1__title {
+  font-size: 50px;
+  padding: 20px 20px 0 0;
+}
+
+.main__section1__subtitle {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+  .main__section1__title {
+    font-size: 70px;
+    padding: 70px 30px 0 0;
+  }
+
+  .main__section1__subtitle {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .main__section1__title {
+    font-size: 70px;
+    padding: 70px 30px 0 0;
+  }
+
+  .main__section1__subtitle {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+}
 
 // ------------ parallax ---------------
 
-.parallax__all {
+.main__section1__parallaxall {
   height: 100vh;
   perspective: 100px;
   overflow-x: hidden;
@@ -10,30 +56,12 @@
   position: absolute;
   top: 0;
   bottom: 0;
-
-  // width: 100vw;
-
-  // height: 100vh;
-  // perspective: 100px;
-  // overflow-x: hidden;
-  // overflow-y: auto;
-  // position: absolute;
-  // top: 0;
-  // bottom: 0;
-
-  // ---- los anula para arriba, se estropea lo de abajo
-
-  // left: 50%;
-  // right: 0;
-  // margin-left: -1500px;
-
-  // ---- los anulapara abajo, se estropea lo de arriba
   left: 0;
   right: 0;
   margin-left: 0px;
 }
 
-.parallax__layer {
+.main__section1__layer {
   position: absolute;
   top: 0;
   right: 0;
@@ -45,18 +73,10 @@
     position: absolute;
     bottom: 0;
   }
-
-  // bottom: 0;
-  // height: 100%;
-  // left: 0;
-  // position: absolute;
-  // right: 0;
-  // top: 0;
-  // width: 100%;
 }
 
-.parallax__content {
-  background: $layer6;
+.main__section1__content {
+  background: $background;
   margin-top: 100vh; // determina la altura a la que cubre
   min-height: 100vh; // determina lo largo del cover
   position: relative;
@@ -67,30 +87,18 @@ $parallax__layers: 6;
 
 @for $i from 0 through $parallax__layers {
   $x: ($parallax__layers - $i) / 2;
-  .parallax__layer__#{$i} {
+  .main__section1__layer-#{$i} {
     transform: translateZ(-100 * $x#{px}) scale($x + 1);
   }
 }
 
-// ------------ content ---------------
+// ------------ content issues solved ---------------
 
-.page__wrapper {
-  margin: 0 25px;
-  width: 100%;
-}
-@media all and (min-width: 768px) {
-  .page__wrapper {
-    margin: 0 48px;
-  }
-}
-@media all and (min-width: 1140px) {
-  .page__wrapper {
-    max-width: 870px;
-    margin: 0 auto;
-  }
-}
-
-.parallax__layer {
+.main__section1__layer {
   display: flex;
   justify-content: center;
+}
+.main__section1__layer-0 {
+  display: flex;
+  justify-content: flex-end;
 }

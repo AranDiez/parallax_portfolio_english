@@ -18,6 +18,10 @@ body {
   display: flex;
   align-content: center;
   justify-content: space-around;
+
+  @media only screen and (min-width: 400px) {
+    justify-content: flex-start;
+  }
 }
 .header__menu--link {
   text-decoration: none;
@@ -30,52 +34,4 @@ body {
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
-}
-@media only screen and (min-width: 768px) {
-}
-.header__nametitle {
-  font-family: 'Antic';
-  z-index: -2;
-}
-.header__title,
-.header__subtitle {
-  color: $layer6;
-  display: flex;
-  align-content: center;
-  justify-content: flex-end;
-}
-.header__title {
-  font-size: 50px;
-  padding: 20px 20px 0 0;
-}
-
-.header__subtitle {
-  font-size: 20px;
-  padding-right: 20px;
-}
-
-@media only screen and (min-width: 400px) {
-  .header__menu {
-    justify-content: flex-start;
-  }
-  .header__title {
-    font-size: 70px;
-    padding: 70px 30px 0 0;
-  }
-
-  .header__subtitle {
-    font-size: 30px;
-    padding-right: 30px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .header__title {
-    font-size: 70px;
-    padding: 70px 30px 0 0;
-  }
-
-  .header__subtitle {
-    font-size: 30px;
-    padding-right: 30px;
-  }
 }
