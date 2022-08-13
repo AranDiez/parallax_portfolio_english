@@ -1,0 +1,96 @@
+@import '../core/variables';
+
+// ------------ parallax ---------------
+
+.parallax__all {
+  height: 100vh;
+  perspective: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  // width: 100vw;
+
+  // height: 100vh;
+  // perspective: 100px;
+  // overflow-x: hidden;
+  // overflow-y: auto;
+  // position: absolute;
+  // top: 0;
+  // bottom: 0;
+
+  // ---- los anula para arriba, se estropea lo de abajo
+
+  // left: 50%;
+  // right: 0;
+  // margin-left: -1500px;
+
+  // ---- los anulapara abajo, se estropea lo de arriba
+  left: 0;
+  right: 0;
+  margin-left: 0px;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+
+  // bottom: 0;
+  // height: 100%;
+  // left: 0;
+  // position: absolute;
+  // right: 0;
+  // top: 0;
+  // width: 100%;
+}
+
+.parallax__content {
+  background: $layer6;
+  margin-top: 100vh; // determina la altura a la que cubre
+  min-height: 100vh; // determina lo largo del cover
+  position: relative;
+  width: 100%;
+}
+
+$parallax__layers: 6;
+
+@for $i from 0 through $parallax__layers {
+  $x: ($parallax__layers - $i) / 2;
+  .parallax__layer__#{$i} {
+    transform: translateZ(-100 * $x#{px}) scale($x + 1);
+  }
+}
+
+// ------------ content ---------------
+
+.page__wrapper {
+  margin: 0 25px;
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .page__wrapper {
+    margin: 0 48px;
+  }
+}
+@media all and (min-width: 1140px) {
+  .page__wrapper {
+    max-width: 870px;
+    margin: 0 auto;
+  }
+}
+
+.parallax__layer {
+  display: flex;
+  justify-content: center;
+}
