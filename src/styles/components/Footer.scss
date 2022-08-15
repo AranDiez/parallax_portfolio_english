@@ -1,0 +1,28 @@
+@import '../core/variables';
+
+.footer {
+  background-color: $layer6;
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.footer__title {
+  font-size: 15px;
+  color: $background;
+  font-family: 'Antic';
+  padding: 10px;
+  opacity: 50%;
+  @media all and (min-width: 800px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 25px;
+  }
+}
+.footer__icon {
+  color: $background;
+  font-size: 15px;
+  opacity: 50%;
+  margin: auto 0;
+}
