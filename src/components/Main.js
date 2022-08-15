@@ -1,6 +1,8 @@
 import '../styles/components/Main.scss';
 import Section2 from './Section2';
 import Section3 from './Section3';
+import Section4 from './Section4';
+import Section5 from './Section5';
 
 import layer0 from '../images/layer_0.png';
 import layer1 from '../images/layer_1.png';
@@ -17,7 +19,7 @@ const Section1 = (props) => {
         <div className="main__section1__layer main__section1__layer-0 ">
           <img src={layer0} />
           <div className="main__section1__nametitle">
-            <h1 className="main__section1__title">Aran Diez</h1>
+            <h1 className="main__section1__title">Aran Díez</h1>
             <h2 className="main__section1__subtitle">
               Junior Front-end Developer
             </h2>
@@ -44,6 +46,8 @@ const Section1 = (props) => {
         <div className="main__section1__content">
           <Section2 />
           <Section3 />
+          <Section4 />
+          <Section5 />
         </div>
       </section>
     </>

@@ -1,12 +1,35 @@
 @import '../core/variables';
 
-.experience,
-.education,
-.contact {
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3__skillsimg {
+  max-width: 30%;
+  margin: 30px;
+  margin-top: 150px;
+}
+
+.section3__title {
   font-family: 'Antic';
   font-size: 50px;
   color: $layer6;
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+
+.section3__skill--title {
+  font-family: 'Antic';
+  font-size: 20px;
+  color: $layer6;
+  margin: 10px;
+}
+
+.section3__skill--bar {
+  background-color: $layer6;
+  width: 500px;
+  height: 20px;
 }

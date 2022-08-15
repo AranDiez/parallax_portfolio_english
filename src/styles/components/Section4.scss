@@ -1,0 +1,77 @@
+@import '../core/variables';
+
+// ------------ boxes ---------------
+.section4 {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.section4__title {
+  font-family: 'Antic';
+  font-size: 40px;
+  color: $layer6;
+  padding-top: 50px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4__boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media all and (min-width: 900px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.section4__box1 {
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../../images/square1.png);
+  background-size: cover;
+  font-family: 'Antic';
+  font-size: 30px;
+  color: $layer6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4__box2 {
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../../images/square2.png);
+  background-size: cover;
+  font-family: 'Antic';
+  font-size: 30px;
+  color: $layer6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4__box3 {
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../../images/square3.png);
+  background-size: cover;
+  font-family: 'Antic';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4__boxtitle {
+  font-size: 30px;
+  color: $layer6;
+}
+.section4__boxparagraph {
+  font-size: 20px;
+  color: $layer6;
+  padding: 40px;
+  text-align: center;
+}
