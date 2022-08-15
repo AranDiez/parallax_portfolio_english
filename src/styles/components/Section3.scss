@@ -2,34 +2,95 @@
 
 .section3 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .section3__skillsimg {
-  max-width: 30%;
-  margin: 30px;
-  margin-top: 150px;
+  max-width: 200px;
+  padding-top: 50px;
+  @media all and (min-width: 800px) {
+    max-width: 300px;
+    padding-right: 30px;
+    margin-top: 150px;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: 500px;
+    padding-right: 30px;
+    margin-top: 150px;
+  }
 }
-
+.section3__skillslist {
+  @media all and (min-width: 800px) {
+    padding-left: 10px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 30px;
+  }
+}
 .section3__title {
   font-family: 'Antic';
-  font-size: 50px;
   color: $layer6;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
+  padding-bottom: 30px;
+  font-family: 'Antic';
+  font-size: 40px;
+  text-transform: uppercase;
+  @media all and (min-width: 800px) {
+    font-size: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .section3__skill--title {
   font-family: 'Antic';
-  font-size: 20px;
   color: $layer6;
   margin: 10px;
+  @media all and (min-width: 800px) {
+    font-size: 20px;
+    margin: 10px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 20px;
+    margin: 10px;
+  }
 }
 
 .section3__skill--bar {
   background-color: $layer6;
-  width: 500px;
+  border: solid 3px $layer6;
+  width: 350px;
   height: 20px;
+  border-top-left-radius: 140px 140px;
+  border-top-right-radius: 140px 140px;
+  border-bottom-left-radius: 140px 140px;
+  border-bottom-right-radius: 140px 140px;
+  @media all and (min-width: 800px) {
+    width: 450px;
+    height: 20px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 500px;
+    height: 20px;
+  }
 }
