@@ -83,6 +83,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   @media all and (min-width: 800px) {
     width: 270px;
     height: 270px;
@@ -96,7 +97,7 @@
   font-size: 30px;
   color: $layer6;
   @media all and (min-width: 800px) {
-    padding-top: 10px;
+    padding-top: 40px;
   }
 }
 .section4__boxtitle:hover {
@@ -109,6 +110,11 @@
   padding: 40px;
   text-align: center;
   @media all and (min-width: 800px) {
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
   }
+}
+
+.section4__boxparagraph:hover {
+  color: $layer1Darkest;
+  cursor: pointer;
 }

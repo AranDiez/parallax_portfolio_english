@@ -6,7 +6,7 @@ import { FaRegEnvelope } from 'react-icons/fa';
 
 const Section5 = (props) => {
   return (
-    <section className="section5">
+    <section className="section5" id="linkToContact">
       <h2 className="section5__title">CONTACT</h2>
       <div className="section5__icons">
         <a href="https://www.linkedin.com/in/arandiez/" target="_blank">
@@ -19,7 +19,6 @@ const Section5 = (props) => {
           <FaRegEnvelope className="section5__icon" />
         </a>
       </div>
-
       <Footer />
     </section>
   );

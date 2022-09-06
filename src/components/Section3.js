@@ -3,7 +3,7 @@ import skillsimg from '../images/skillsimg.png';
 
 const Section3 = (props) => {
   return (
-    <section className="section3">
+    <section className="section3" id="linkToSkills">
       <img className="section3__skillsimg" src={skillsimg} />
       <div className="section3__skillslist">
         <h2 className="section3__title">SKILLS</h2>

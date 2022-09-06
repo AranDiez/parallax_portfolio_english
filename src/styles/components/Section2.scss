@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.section2__boxparagraph {
+.section2__boxparagraph1 {
   font-size: 20px;
   color: $layer6;
   padding: 40px 20px 0 20px;
@@ -36,7 +36,7 @@
   padding: 20px 20px 0 20px;
   text-align: center;
   @media all and (min-width: 800px) {
-    padding: 40px 50px 0 50px;
+    padding: 20px 50px 0 50px;
   }
   @media all and (min-width: 1200px) {
     padding: 20px 90px 0 90px;

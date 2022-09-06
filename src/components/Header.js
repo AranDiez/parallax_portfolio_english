@@ -3,12 +3,19 @@ import '../styles/components/Header.scss';
 const Header = (props) => {
   return (
     <header className="header">
-      <nav>
-        <ul className="header__menu">
-          <li className="header__menu--link">projects</li>
-          <li className="header__menu--link">about</li>
-          <li className="header__menu--link">contact</li>
-        </ul>
+      <nav className="header__menu">
+        <a href="#linkToAbout" className="header__menu--link">
+          about
+        </a>
+        <a href="#linkToSkills" className="header__menu--link">
+          skills
+        </a>
+        <a href="#linkToProjects" className="header__menu--link">
+          projects
+        </a>
+        <a href="#linkToContact" className="header__menu--link">
+          contact
+        </a>
       </nav>
     </header>
   );

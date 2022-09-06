@@ -2,29 +2,37 @@ import '../styles/components/Section4.scss';
 
 const Section4 = (props) => {
   return (
-    <section className="section4">
+    <section className="section4" id="linkToProjects">
       <h2 className="section4__title">projects</h2>
       <div className="section4__boxes">
         <a
-          href="https://reactportfolio.arandiez.com/"
+          href="https://htmlsass.arandiez.com/"
           target="_blank"
           class="section4__box1"
         >
-          <h3 className="section4__boxtitle">Online shop</h3>
+          <h3 className="section4__boxtitle">HTML/SASS</h3>
           <p className="section4__boxparagraph">
-            Lorem fistrum apetecan ese que llega jarl al ataquerl la caidita al
+            A responsive project using Html5, css3 and Sass.
           </p>
         </a>
-        <a href="http://arandiez.com/" class="section4__box2">
-          <h3 className="section4__boxtitle">Travel manager</h3>
+        <a
+          href="https://javascriptapi.arandiez.com/"
+          target="_blank"
+          class="section4__box2"
+        >
+          <h3 className="section4__boxtitle">JAVASCRIPT</h3>
           <p className="section4__boxparagraph">
-            Lorem fistrum apetecan ese que llega jarl al ataquerl la caidita al
+            A project using javascript and third-party API.
           </p>
         </a>
-        <a href="http://arandiez.com/" class="section4__box3">
-          <h3 className="section4__boxtitle">Game</h3>
+        <a
+          href="https://reactportfolio.arandiez.com/"
+          target="_blank"
+          class="section4__box3"
+        >
+          <h3 className="section4__boxtitle">REACT</h3>
           <p className="section4__boxparagraph">
-            Lorem fistrum apetecan ese que llega jarl al ataquerl la caidita al
+            A project using the javascript focused library React.
           </p>
         </a>
       </div>
