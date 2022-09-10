@@ -42,3 +42,24 @@
     padding: 20px 90px 0 90px;
   }
 }
+.section2__download--title {
+  margin-top: 20px;
+}
+.section2__download--title,
+.section2__download--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $layer6;
+  font-size: 25px;
+}
+
+.section2__download--icondown {
+  color: $layer6;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.section2__download--icondown:hover {
+  color: $layer1Darkest;
+  cursor: pointer;
+}

@@ -16,23 +16,23 @@ const Section4 = (props) => {
           </p>
         </a>
         <a
-          href="https://javascriptapi.arandiez.com/"
+          href="https://javascriptgame.arandiez.com/"
           target="_blank"
           class="section4__box2"
         >
           <h3 className="section4__boxtitle">JAVASCRIPT</h3>
           <p className="section4__boxparagraph">
-            A project using javascript and third-party API.
+            Small casino game using javascript and animations in css.
           </p>
         </a>
         <a
-          href="https://reactportfolio.arandiez.com/"
+          href="https://reactthirdapi.arandiez.com/"
           target="_blank"
           class="section4__box3"
         >
           <h3 className="section4__boxtitle">REACT</h3>
           <p className="section4__boxparagraph">
-            A project using the javascript focused library React.
+            A project using javascript on React plus a third-party API.
           </p>
         </a>
       </div>
