@@ -54,49 +54,49 @@
   justify-content: center;
 }
 
-.section3__skill--title {
-  font-family: 'Antic';
-  color: $layer6;
-  margin: 10px;
-  @media all and (min-width: 800px) {
-    font-size: 20px;
-    margin: 10px;
-  }
-  @media all and (min-width: 1200px) {
-    font-size: 20px;
-    margin: 10px;
-  }
-}
+// .section3__skill--title {
+//   font-family: 'Antic';
+//   color: $layer6;
+//   margin: 10px;
+//   @media all and (min-width: 800px) {
+//     font-size: 20px;
+//     margin: 10px;
+//   }
+//   @media all and (min-width: 1200px) {
+//     font-size: 20px;
+//     margin: 10px;
+//   }
+// }
 
-.section3__skill--bar {
-  background-color: $layer6;
-  border: solid 3px $layer6;
-  width: 350px;
-  height: 20px;
-  border-top-left-radius: 140px 140px;
-  border-top-right-radius: 140px 140px;
-  border-bottom-left-radius: 140px 140px;
-  border-bottom-right-radius: 140px 140px;
-  @media all and (min-width: 800px) {
-    width: 450px;
-    height: 20px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 500px;
-    height: 20px;
-  }
-}
+// .section3__skill--bar {
+//   background-color: $layer6;
+//   border: solid 3px $layer6;
+//   width: 350px;
+//   height: 20px;
+//   border-top-left-radius: 140px 140px;
+//   border-top-right-radius: 140px 140px;
+//   border-bottom-left-radius: 140px 140px;
+//   border-bottom-right-radius: 140px 140px;
+//   @media all and (min-width: 800px) {
+//     width: 450px;
+//     height: 20px;
+//   }
+//   @media all and (min-width: 1200px) {
+//     width: 500px;
+//     height: 20px;
+//   }
+// }
 
-.section3__skill--orangebar {
-  background-color: $layer2Dark;
-  border: solid 3px $layer2Dark;
-  height: 20px;
-  border-top-left-radius: 140px 140px;
-  border-top-right-radius: 140px 140px;
-  border-bottom-left-radius: 140px 140px;
-  border-bottom-right-radius: 140px 140px;
-  transform: translate(0px, -20px);
-}
+// .section3__skill--orangebar {
+//   background-color: $layer2Dark;
+//   border: solid 3px $layer2Dark;
+//   height: 20px;
+//   border-top-left-radius: 140px 140px;
+//   border-top-right-radius: 140px 140px;
+//   border-bottom-left-radius: 140px 140px;
+//   border-bottom-right-radius: 140px 140px;
+//   transform: translate(0px, -20px);
+// }
 
 .section3__skill--orangebar1 {
   width: 290px;
@@ -181,11 +181,163 @@
   }
 }
 .section3__skill--orangebar10 {
+  width: 235px;
+  @media all and (min-width: 800px) {
+    width: 325px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 365px;
+  }
+}
+.section3__skill--orangebar11 {
   width: 335px;
   @media all and (min-width: 800px) {
     width: 425px;
   }
   @media all and (min-width: 1200px) {
     width: 465px;
+  }
+}
+
+// ---------------- efecto barras skills
+
+.section3__skill--title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: 'Antic';
+  color: $layer6;
+  margin: 10px;
+  @media all and (min-width: 800px) {
+    font-size: 20px;
+    margin: 10px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+.section3__skill--bar {
+  position: relative;
+  border: solid 3px $layer6;
+  border-radius: 20px;
+  background-color: $layer6;
+  width: 350px;
+  height: 20px;
+  @media all and (min-width: 800px) {
+    width: 450px;
+    height: 20px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 500px;
+    height: 20px;
+  }
+}
+.section3__skill--bar div {
+  transform: translate(-5px, -3px);
+  position: relative;
+  width: 0;
+  height: 20px;
+  border-radius: 10px;
+  background-color: $layer2Dark;
+  border: solid 3px $layer2Dark;
+}
+.section3__skill--orangebar {
+  background-color: $layer2Dark;
+  border: solid 3px $layer2Dark;
+  height: 20px;
+  border-top-left-radius: 140px 140px;
+  border-top-right-radius: 140px 140px;
+  border-bottom-left-radius: 140px 140px;
+  border-bottom-right-radius: 140px 140px;
+  transform: translate(0px, -20px);
+}
+.section3__skill--orangebar1 {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+.section3__skill--orangebar2 {
+  animation: css3-fill 2s forwards;
+}
+@keyframes css3-fill {
+  100% {
+    width: 85%;
+  }
+}
+.section3__skill--orangebar3 {
+  animation: sass-fill 2s forwards;
+}
+@keyframes sass-fill {
+  100% {
+    width: 85%;
+  }
+}
+.section3__skill--orangebar4 {
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 65%;
+  }
+}
+.section3__skill--orangebar5 {
+  animation: react-fill 2s forwards;
+}
+@keyframes react-fill {
+  100% {
+    width: 75%;
+  }
+}
+.section3__skill--orangebar6 {
+  animation: node-fill 2s forwards;
+}
+@keyframes node-fill {
+  100% {
+    width: 55%;
+  }
+}
+.section3__skill--orangebar7 {
+  animation: sql-fill 2s forwards;
+}
+@keyframes sql-fill {
+  100% {
+    width: 50%;
+  }
+}
+.section3__skill--orangebar8 {
+  animation: apis-fill 2s forwards;
+}
+@keyframes apis-fill {
+  100% {
+    width: 60%;
+  }
+}
+.section3__skill--orangebar9 {
+  animation: agile-fill 2s forwards;
+}
+@keyframes agile-fill {
+  100% {
+    width: 80%;
+  }
+}
+.section3__skill--orangebar10 {
+  animation: wordpress-fill 2s forwards;
+}
+@keyframes wordpress-fill {
+  100% {
+    width: 70%;
+  }
+}
+.section3__skill--orangebar11 {
+  animation: adobe-fill 2s forwards;
+}
+@keyframes adobe-fill {
+  100% {
+    width: 95%;
   }
 }
