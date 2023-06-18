@@ -254,7 +254,7 @@
   transform: translate(0px, -20px);
 }
 .section3__skill--orangebar1 {
-  animation: html-fill 2s forwards;
+  animation: html-fill 10s forwards;
 }
 @keyframes html-fill {
   100% {
@@ -262,7 +262,7 @@
   }
 }
 .section3__skill--orangebar2 {
-  animation: css3-fill 2s forwards;
+  animation: css3-fill 10s forwards;
 }
 @keyframes css3-fill {
   100% {
@@ -270,7 +270,7 @@
   }
 }
 .section3__skill--orangebar3 {
-  animation: sass-fill 2s forwards;
+  animation: sass-fill 10s forwards;
 }
 @keyframes sass-fill {
   100% {
@@ -278,7 +278,7 @@
   }
 }
 .section3__skill--orangebar4 {
-  animation: js-fill 2s forwards;
+  animation: js-fill 10s forwards;
 }
 @keyframes js-fill {
   100% {
@@ -286,7 +286,7 @@
   }
 }
 .section3__skill--orangebar5 {
-  animation: react-fill 2s forwards;
+  animation: react-fill 10s forwards;
 }
 @keyframes react-fill {
   100% {
@@ -294,50 +294,50 @@
   }
 }
 .section3__skill--orangebar6 {
-  animation: node-fill 2s forwards;
+  animation: wordpress-fill 10s forwards;
 }
-@keyframes node-fill {
+@keyframes wordpress-fill {
   100% {
-    width: 55%;
+    width: 75%;
   }
 }
 .section3__skill--orangebar7 {
-  animation: sql-fill 2s forwards;
+  animation: php-fill 10s forwards;
 }
-@keyframes sql-fill {
+@keyframes php-fill {
   100% {
     width: 50%;
   }
 }
 .section3__skill--orangebar8 {
-  animation: apis-fill 2s forwards;
+  animation: figma-fill 10s forwards;
 }
-@keyframes apis-fill {
+@keyframes figma-fill {
   100% {
-    width: 60%;
+    width: 95%;
   }
 }
 .section3__skill--orangebar9 {
-  animation: agile-fill 2s forwards;
+  animation: inde-fill 10s forwards;
 }
-@keyframes agile-fill {
+@keyframes inde-fill {
   100% {
     width: 80%;
   }
 }
 .section3__skill--orangebar10 {
-  animation: wordpress-fill 2s forwards;
+  animation: photo-fill 10s forwards;
 }
-@keyframes wordpress-fill {
+@keyframes photo-fill {
   100% {
-    width: 70%;
+    width: 95%;
   }
 }
 .section3__skill--orangebar11 {
-  animation: adobe-fill 2s forwards;
+  animation: agile-fill 10s forwards;
 }
-@keyframes adobe-fill {
+@keyframes agile-fill {
   100% {
-    width: 95%;
+    width: 85%;
   }
 }

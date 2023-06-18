@@ -6,13 +6,14 @@ const Section4 = (props) => {
       <h2 className="section4__title">projects</h2>
       <div className="section4__boxes">
         <a
-          href="https://htmlsass.arandiez.com/"
+          href="https://photojournalism.arandiez.com/"
           target="_blank"
           class="section4__box1"
         >
-          <h3 className="section4__boxtitle">HTML/SASS</h3>
-          <p className="section4__boxparagraph">
-            A responsive project using Html5, css3 and Sass.
+          <h3 className="section4__boxtitle section4__boxtitle1">REACT</h3>
+          <p className="section4__boxparagraph section4__boxparagraph1">
+            A responsive project using React library and implementing sass,
+            bootstrap and React Router DOM.
           </p>
         </a>
         <a
@@ -30,7 +31,7 @@ const Section4 = (props) => {
           target="_blank"
           class="section4__box3"
         >
-          <h3 className="section4__boxtitle">REACT</h3>
+          <h3 className="section4__boxtitle">API</h3>
           <p className="section4__boxparagraph">
             A project using javascript on React plus a third-party API.
           </p>

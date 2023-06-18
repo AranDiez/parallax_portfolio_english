@@ -55,8 +55,8 @@ const Section3 = (props) => {
         </div>
         <div class="section3__skill">
           <div class="section3__skill--title">
-            <h3>nodejs</h3>
-            <h3>55%</h3>
+            <h3>WORDPRESS</h3>
+            <h3>75%</h3>
           </div>
           <div class="section3__skill--bar">
             <div className="section3__skill--orangebar6"></div>
@@ -64,7 +64,7 @@ const Section3 = (props) => {
         </div>
         <div class="section3__skill">
           <div class="section3__skill--title">
-            <h3>mysql</h3>
+            <h3>PHP</h3>
             <h3>50%</h3>
           </div>
           <div class="section3__skill--bar">
@@ -73,8 +73,8 @@ const Section3 = (props) => {
         </div>
         <div class="section3__skill">
           <div class="section3__skill--title">
-            <h3>apis</h3>
-            <h3>60%</h3>
+            <h3>FIGMA AND ADOBE XD</h3>
+            <h3>95%</h3>
           </div>
           <div class="section3__skill--bar">
             <div className="section3__skill--orangebar8"></div>
@@ -82,7 +82,7 @@ const Section3 = (props) => {
         </div>
         <div class="section3__skill">
           <div class="section3__skill--title">
-            <h3>agile</h3>
+            <h3>INDESIGN</h3>
             <h3>80%</h3>
           </div>
           <div class="section3__skill--bar">
@@ -91,17 +91,18 @@ const Section3 = (props) => {
         </div>
         <div class="section3__skill">
           <div class="section3__skill--title">
-            <h3>wordpress</h3>
-            <h3>70%</h3>
+            <h3>PHOTOSHOP</h3>
+            <h3>95%</h3>
           </div>
           <div class="section3__skill--bar">
             <div className="section3__skill--orangebar10"></div>
           </div>
         </div>
+
         <div class="section3__skill">
           <div class="section3__skill--title">
-            <h3>adobe photoshop</h3>
-            <h3>95%</h3>
+            <h3>AGILE</h3>
+            <h3>85%</h3>
           </div>
           <div class="section3__skill--bar">
             <div className="section3__skill--orangebar11"></div>
